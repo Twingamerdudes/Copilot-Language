@@ -1,0 +1,18 @@
+func main(){
+    //import print.cpl
+    //."Hello"
+    //print -> .
+    //spc
+    //."World"
+    //print -> .
+    //nl
+    //call istrue
+    file open "test.txt" "w"
+    file write "Hello"
+    file spc
+    file close
+    file open "test.txt" "a"
+    file write "from"
+    file spc
+    file write "cpl"
+}

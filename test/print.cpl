@@ -1,0 +1,10 @@
+func prent(){
+    ."This"
+    print -> .
+    spc
+    ."works!"
+    print -> .
+}
+func istrue(){
+    if 2 == 2 prent
+}
