@@ -60,3 +60,16 @@ You can also use temp by using a dot.
 for else statments, add `else false` onto your if statment. 
 Also keep in mind, this is one line, and it is the only way use them.
 ### Using the file system
+So, you need to make, and edit files. Well you can!
+Just use `file`. To open a file just do `file open (name) (perm)`. Perm is the permission for the file.
+`r` is read, `w` is write, `x` is create, and `a` is append.
+To make a file, just do `file write (content)` We use file write to create files as if the file does not exist then cpl will create it for us.
+To read a file, do `file read`. The contents of the file will be sent to tempArray.
+To close a file, do `file close`.
+Also, remeber string rules, they also apply here. So use `file spc` and `file nl` for new lines and spaces.
+### Using the io system
+Using the io system is pretty simpile as well.
+To get input from the user, do `io.getInput`. You can also get the key the user pressed with `io.key`.
+## Conclusion
+Well, that's basiclly it, now what are you waiting for, go mess around with this langauge! 
+Modify it's source, make your own programs, I don't care!
