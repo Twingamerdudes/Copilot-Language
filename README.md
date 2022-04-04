@@ -8,7 +8,7 @@ I can only edit if
 Well that's it. Time to provide Documentation I guess now.
 ## Documentation
 ### Making your first program
-So first make a file and make it's file extension .cpl
+So first make a file and make it's file extension .cpl (also, yes I know when you put .cpl as a file exetension, windows says it's a control panel window, never realized this until it was too late)
 Inside the file, type on the first line ` func main(){ `
 Now instead the main function put :
 ``` ."Hello"
